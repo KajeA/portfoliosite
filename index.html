@@ -7,9 +7,12 @@
   <script src="./scripts/app.js"></script>
   <script src="https://kit.fontawesome.com/f244332d5f.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/stars.css">
+  
 </head>
 <body>
+
+
   <header>
     <div class="container">
       
@@ -37,15 +40,10 @@
         </li>
         <li>
           <a href="#contact">Contact</a>
-        </li>
-      <!-- </ul>
-    </div> -->
-
-      <!-- Social Media Icons-->
-    
+        </li> 
       </ul>
-      
     </div>
+
 
   </header>
   
@@ -55,15 +53,23 @@
   <section id="home" class="hero">
 
 
+    <div id='stars'></div>
+<div id='stars2'></div>
+<div id='stars3'></div>
+<div id='title'>
+
+
+
 
   <div id="title">
     <h1>Hi! I'm Kaje</h1>
-    <p>I'm a developer with a penchant for creative problem-solving</p> 
+    <p>A developer with a penchant for creative problem-solving</p> 
+    <p class="space">(and space)</p>
     <p>Technologies I use:</p>
 </div>
     <ul class="tech">
     
-
+<!--  -->
 
       <i class="fab fa-js-square"></i>
       <i class="fab fa-node-js"></i>
@@ -98,7 +104,7 @@
           <div class="pro1">
             <img src="" alt="" class="propic">
             <h3 class="card__title">Canadian Translator</h3>
-            <button type="button" id="livebutton">Live Preview</button>
+            <!-- <button type="button" id="livebutton">Live Preview</button> -->
             <button type="button" id="ghbutton"><a href="https://github.com/KajeA/canadian-translator">Github</a></button>
             <p> Technologies used: Python</p>
           </div>  
@@ -130,18 +136,19 @@
             <p> Technologies used: Javascript, HMTL, CSS</p>
           </div>
         </li>
+     
       </ul>
 
       <p class="quote">“Humans develop the most peculiar fascinations. Sometimes their fascinations seem to take control.” - Sweet Shalquoir</p>
-
-
-      <section id="scroll3" class="scroll">
-        <a href="#about"><span></span><span></span><span></span></a>
-      </section> 
+ 
   </section>
 
+<section id="scroll3" class="scroll3">
+        <a href="#about"><span></span><span></span><span></span></a>
+      </section> 
+  
 
-  <!-- About Section -->
+   About Section
 
   <section id="about" class="about">
     <h2 class="title">About Me</h2>
@@ -156,11 +163,12 @@ I relish the small victories in life, like finally getting that piece of code to
       <a href="https://www.goodreads.com/kajea">Here's what I'm reading on GoodReads</a>
       <a href="https://www.last.fm/user/wulfzbane">Here's what I'm listening to on Last.fm</a>
       <a href="https://kajemusic.com/">My music blog/writing portfolio</a>
-</div>
-   <section id="scroll2" class="scroll">
-    <a href="#contact"><span></span><span></span><span></span></a>
-  </section>
+</div> 
 
+ 
+  </section>
+  <section id="scroll2" class="scroll2">
+    <a href="#contact"><span></span><span></span><span></span></a>
   </section>
 
 
@@ -169,11 +177,48 @@ I relish the small victories in life, like finally getting that piece of code to
  
   <section id="contact" class="contact">
     <h2 class="title">Contact</h2>
-  </section>
-  <script type="text/javascript" src="https://form.jotform.com/jsform/200573768798069"></script>
+ 
+<p>In leiu of an Alterban long-range communication device, you can reach me by email below, or on social media</p>
+
+
+
+
+<div class="form-part">
+  <form class="form" action="https://formspree.io/xrgkjrwv" method="POST">
+  <label for="name">Name</label>
+  <input type="text" name="name" id="name" required>
+  <label for="email">Email</label>
+  <input type="email" name="_replyto" id="email" required>
+  <label for="email">Message</label>
+  <textarea name="message" id="message" cols="30" rows="10"></textarea>
+  <button type="submit" class="submit">Send</button>
+</form>
+
+
+
+
+<div class="twitter2">
+  <a href="https://twitter.com/Annihilatrix"><i class="fab fa-twitter"></i></a>
+</div>
+<div class="facebook2">
+  <a href="https://www.facebook.com/kaje.annihilatrix/"><i class="fab fa-facebook-f"></i></a>
+</div>
+<div class="linkedin2">
+  <a href="https://www.linkedin.com/in/kajea/"><i class="fab fa-linkedin-in"></i></a>
+</div>
+<div class="github2">
+  <a href="https://github.com/KajeA"><i class="fab fa-github"></i></a>
+</div>   
+</div>
+
+ </section>
+  <!-- <script type="text/javascript" src="https://form.jotform.com/jsform/200573768798069"></script> -->
   
   <footer class="footer">
-    <h4>Copyright 2020 Annihilatrix Productions</h4>
+    <h4>Copyright 2020 </h4>
   </footer>
 </body>
-</html>
+
+
+
+</html> 
