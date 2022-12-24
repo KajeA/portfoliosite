@@ -1,5 +1,4 @@
 /* Reset */
-
 body, html {
   padding: 0;
   margin: auto;
@@ -11,12 +10,7 @@ ul {
   list-style-type: none;
 }
 
-
-
-
 /* Section title banners*/
-
-
 .title {
   font-weight: 700;
   text-align: center;
@@ -34,29 +28,24 @@ ul {
   top: 0;
 }
 
-
 /* Scroll Bar */
-
 .scroll {
   position: relative;
   bottom: 250px;
   height: 100px;
   width: 100%;
 }
-
 .scroll3 {
   position: relative;
   height: -20rem;
   width: 100%;
 
 }
-
 .scroll2  {
     position: relative;
     /* background-color: rgb(27, 161, 27); */
     width: 100%;
 }
-
 .scroll a,
 .scroll3 a,
 .scroll2 a {
@@ -71,7 +60,6 @@ ul {
 .scroll3 a:hover {
   opacity: .5;
 }
-
 #scroll a,
 #scroll2 a,
 #scroll3 a  {
@@ -137,46 +125,34 @@ ul {
     opacity: 0;
   }
 }
-
-
-
-
-
-
 /* Top Nav Bar */
-
 .container {
   width: 100vw;
-  display: flex; 
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-
-.nav {  
+.nav {
   height: 2.5rem;
   display: flex;
   justify-content: space-evenly;
   flex: 1 1 20rem;
 }
-
 .nav li {
   display: inline;
-} 
-
-.nav a {  
+}
+.nav a {
   color: rgb(27, 161, 27);
   font-family: 'xolo', sans-serif;
   text-transform: uppercase;
   text-decoration: none;
   font-size: 1.5rem;
 }
- 
+
 .nav a:hover{
   color: purple;
 }
-
-
-.twitter, .facebook, .linkedin, .github { 
+.twitter, .facebook, .linkedin, .github {
   width: 2rem;
   height: 2rem;
   padding-top: 1.2rem;
@@ -184,61 +160,48 @@ ul {
   font-size: 1.5rem;
   color: rgb(27, 161, 27);
 }
-
 .twitter:hover, .facebook:hover, .linkedin:hover, .github:hover{
   color: purple;
 }
-
-
-
 /* Hero  Section*/
-
-#home{  
+#home{
   /* background-color: white; */
   height: 60em;
   width: 100%;
   margin: 0;
 }
-
-
 .hero {
   position: relative;
   width: 100%;
   margin-left: 5rem;
   text-align: center;
 }
-
 .tech {
   text-align: center;
   font-size: 70px;
   margin-top: 15rem 0 0 0;
 }
-
 .fab {
   color: rgb(27, 161, 27);
 }
-
 .fab:hover  {
   text-shadow: 0 0 3px rgb(27, 161, 27);
   -webkit-transform: scale(0.8);
   -ms-transform: scale(0.8);
   transform: scale(0.8);
 }
-
 h1 {
   font-family: 'xolo', sans-serif;
   font-size: 40px;
   padding-top: 4rem;
   color: white;
 }
-
 p {
   font-family: 'xolo', sans-serif;
   padding-top: 2rem;
   font-size: 20px;
   color: white;
 }
-
 .herotext {
   text-align: right;
   position: absolute;
@@ -246,40 +209,29 @@ p {
   left: 40%;
   padding-right: 3rem;
 }
-
 .herotext h2 {
   font-family: 'Playfair Display', sans-serif;
   color: rgb(27, 161, 27);
   font-size: 2vw;
 }
-
 .space {
   padding-top: 0;
   color: rgb(27, 161, 27);
 }
 
-
-
-
-
 /* Projects section */
-
 .projects {
   position: relative;
   text-align: center;
   min-height: 60rem;
   /* overflow: scroll; */
 }
-
-
 #projects {
   width: 100%;
   display: block;
   list-style-type: none;
 }
-
 /* Cards */
-
 .projects ul {
   display: flex;
   flex-direction: row;
@@ -287,7 +239,6 @@ p {
   justify-content: space-evenly;
 
 }
-
 .pro1, .pro2, .pro3, .pro4 {
   background-color: rgb(13, 14, 14);
   border: rgb(117, 19, 93, 0.73) 1px solid;
@@ -302,18 +253,15 @@ p {
   box-shadow: 0 .30rem .30rem rgba(0,0,0,0.2), 0 0 1rem rgba(0,0,0,0.2);
   overflow: hidden;
   text-align: center;
-  font-family: sans-serif; 
+  font-family: sans-serif;
 }
-
-
 .pro1 {
-  background-image: 
+  background-image:
   linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
   url("../assets/canadiant.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
-
 .pro2 {
   background-image:
   linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
@@ -321,92 +269,71 @@ p {
   background-size: contain;
   background-repeat: no-repeat;
 }
-
-
 .pro3 {
-  background-image: 
+  background-image:
   linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
   url("../assets/sentrybox.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
-
 .pro4 {
-  background-image: 
+  background-image:
   linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
   url("../assets/rps.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
-
 .projects button {
   background-color: transparent;
   border: solid 2px rgb(25, 39, 19);
   border-radius: 1em;
   color: #aaa;
 }
-
 .projects button:hover {
   color: black;
   background-color: #aaa;
   cursor: pointer;
 }
-
 .quote {
   font-style: italic;
   padding: 5rem 5rem 0 5rem;
 }
-
 .pro1 p, .pro2 p, .pro3 p, .pro4 p {
   padding-top: 0;
   font-size: 15px;
   font-family: sans-serif;
 }
-
 .pro1 a, .pro2 a, .pro3 a, .pro4 a {
 text-decoration: none;
 color: rgb(25, 39, 19);
 }
-
 .pro1 h3, .pro2 h3, .pro3 h3, .pro4 h3 {
   margin-top: 7.5rem;
   text-decoration: none;
   color: rgb(25, 39, 19);
 }
-
 .pro1 a:hover, .pro2 a:hover, .pro3 a:hover, .pro4 a:hover {
   text-decoration: none;
   color:black;
 }
-
-
 /* About Section*/
-
-
-
-
 #about {
   height: 60em;
   width: 100%;
 }
-
 .about {
   position: relative;
   text-align: center;
 }
-
 .about p {
   margin: 5rem;
   text-align: center;
 }
-
-
 .otherlinks {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-
 .otherlinks a {
   background-color: rgb(27, 161, 27);
   color: white;
@@ -416,56 +343,11 @@ color: rgb(25, 39, 19);
   border-radius: 15px;
   font-family: sans-serif;
 }
-
 .otherlinks a:hover {
   background-color: purple;
 }
-
-
-
-/* Contact Form */
-
-
-
-#contact {
-  width: 100%;
-  min-height: 50rem;
-}
-
-.contact p {
-  margin: 5rem, 5rem, 0, 5rem;
+.contact {
   text-align: center;
-}
-
-.form-part {
-
-  text-align: center;
-  padding-top: 5rem;
-  width: 30rem;
-  height: 20rem;  
-  color: white;
-  margin-left: auto;
-  margin-right: auto;
-  
-}
-.form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  
-}
-
-input,
-textarea {
-  border-radius: 10px;
-  margin: 0.5rem;
-}
-
-.submit {
-  width: 5rem;
-  border-radius: 10px;
-  margin-top: 1rem;
-  
 }
 
 .twitter2, .facebook2, .linkedin2, .github2 { 
@@ -484,8 +366,6 @@ textarea {
 
 /* Footer */
 
-
-
 .footer {
   background-color: black;
   height: 5rem;
@@ -499,14 +379,7 @@ textarea {
   text-align: center;
 }
 
-
-
-
 /****RESPONSIVE ****/
-
-
-
-
 @media screen and (max-width: 960px) {
   .scroll2,
   .scroll3 {
@@ -517,14 +390,11 @@ textarea {
   }
 }
 
-
  @media screen and (max-width: 750px) {
   #about {
     height: auto;
   }
 }
-
-
 
 @media screen and (max-width: 600px) {
   .nav a {
@@ -538,7 +408,6 @@ textarea {
     max-width: 20em;
   }
 }  
-
 
 @font-face {
   font-family: 'xolo';
