@@ -7,133 +7,59 @@
   <script src="./scripts/app.js"></script>
   <script src="https://kit.fontawesome.com/f244332d5f.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/stars.css">
-  
 </head>
+
 <body>
-  <header>
-    <div class="container">
-      <div class="linkedin">
-        <a href="https://www.linkedin.com/in/kajea/"><i class="fab fa-linkedin-in"></i></a>
-      </div>
-      <div class="github">
-        <a href="https://github.com/KajeA"><i class="fab fa-github"></i></a>
-      </div>   
-      
-      <ul class="nav">
-        <li>
-          <a href="#projects">Projects</a>
-        </li>
-        <li>
-          <a href="#about">About</a>
-        </li>
+  <section class="hero">
+    <div class="header-text">
+      <h1>Hi! I'm Kaje,</h1>
+    </div>
+
+    <div class="quote-text">
+      <h2>an enthusiatic and passionate, (mostly) backend engineer</h2>
+    </div>
+    <div class="line"></div>
+
+    <div class="exp">
+      <p>Experience and Contact:</p>
+    </div>
+    <div class="tech">
+        <a href="https://www.linkedin.com/in/kajea/"><i class="fab fa-linkedin-in picon"></i></a>
+        <a href="https://github.com/KajeA"><i class="fab fa-github picon"></i></a>
+      <a href="K_Jenkinson_Lebenslauf.pdf" target="_blank"><i class="fas fa-file-pdf picon"></i></a>
+    </div>
+    <div class="line"></div>
+
+    <div class="techsection">
+      <p>Tech I like working with:</p>
+    </div>
+    <div class="techicons">
+      <ul class="tech">
+        <i class="fab fa-php gicon"></i>
+        <i class="fab fa-aws gicon"></i>
+        <i class="fab fa-python gicon"></i>
+        <i class="fab fa-java gicon"></i>
+        <i class="fab fa-android gicon"></i>
+        <i class="fab fa-js-square gicon"></i>
+        <i class="fab fa-node-js gicon"></i>
+        <i class="fab fa-vuejs gicon"></i>
       </ul>
     </div>
-  </header>
+    <div class="line"></div>
 
-    <!-- Home Section-->
-  <section id="home" class="hero">
-    <div id='stars'></div>
-    <div id='stars2'></div>
-    <div id='stars3'></div>
-
-    <div id="title">
-      <h1>Hi! I'm Kaje</h1>
-      <p>A developer with a penchant for creative problem-solving</p>
-      <p class="space">(and space)</p>
-      <p>Technologies I use:</p>
+    <div class="fluff">
+        <p>More about me:</p>
     </div>
-    <ul class="tech">
-      <i class="fab fa-js-square"></i>
-      <i class="fab fa-node-js"></i>
-      <i class="fab fa-vuejs"></i>
-      <i class="fab fa-git"></i>
-      <i class="fab fa-html5"></i>
-      <i class="fab fa-css3-alt"></i>
-      <i class="fab fa-sass"></i>
-      <i class="fab fa-python"></i>
-      <i class="fab fa-windows"></i>
-      <i class="fab fa-linux"></i>
-      <i class="fab fa-adobe"></i>
-      <i class="fab fa-wordpress"></i>
-    </ul>
-  </section>
-
-  <section id="scroll" class="scroll">
-    <a href="#projects"><span></span><span></span><span></span></a>
-  </section>
-
-  <!--Projects-->
-  <section id="projects" class="projects">
-    <h2 class="title">Projects</h2>
-      <ul>
-        <li>
-          <div class="pro1">
-            <h3 class="card__title">Canadian Translator</h3>
-            <button type="button" id="livebutton"><a href="https://canadian-translator.herokuapp.com/">Live Preview</a></button>
-            <button type="button" id="ghbutton"><a href="https://github.com/KajeA/canadian-translator">Github</a></button>
-            <p> Technologies used: Python, Flask, HTML, CSS</p>
-          </div>  
-        </li>  
-        <li>
-          <div class="pro2">
-            <h3 class="card__title">Star Wars Vacation Planner</h3>
-            <button type="button" id="livebutton"><a href="https://youthful-hodgkin-6d3d8c.netlify.com/">Live Preview</a></button>
-            <button type="button" id="ghbutton"><a href="https://github.com/KajeA/Star-Wars-Vacation-Planner">Github</a></button>
-            <p> Technologies used: APIs, Javascript, HTML, CSS</p>
-          </div>
-        </li>
-        <li>
-          <div class="pro3">
-            <h3 class="card__title">Custom Payment App/Site Redesign</h3>
-            <button type="button" id="livebutton"><a href="https://boner-boiz.web.app/">Live Preview</a></button>
-            <button type="button" id="ghbutton"><a href="https://github.com/KajeA/Python-Vue-Flask-Ecommerce-Site">Github</a></button>
-            <p> Technologies used: Vue.js, Python, Flask</p>
-          </div>
-        </li>
-        <li>
-          <div class="pro4">
-            <h3 class="card__title">Rock Paper Scissors</h3>
-            <button type="button" id="livebutton"><a href="https://hardcore-lovelace-928ca0.netlify.com/">Live Preview</a></button>
-            <button type="button" id="ghbutton"><a href="https://github.com/KajeA/rps">Github</a></button>
-            <p> Technologies used: Javascript, HMTL, CSS</p>
-          </div>
-        </li>
-      </ul>
-    <p class="quote">“Humans develop the most peculiar fascinations. Sometimes their fascinations seem to take control.” - Sweet Shalquoir</p>
-  </section>
-
-  <section id="scroll3" class="scroll3">
-          <a href="#about"><span></span><span></span><span></span></a>
-        </section>
-     About Section
-    <section id="about" class="about">
-      <h2 class="title">About Me</h2>
-      <p>
-        I have always been fascinated with technology and computers, from the days of DOS to the current era of VR, AI and RGB. I love playing and trying to break games and figuring out exactly how things work, or why they don’t. </br>
-      </br>
-        So far, my professional life has been a whirlwind of loud music, tours, strange rider requests and writing about people’s idols. It’s usually a nonstop rush of fun and chaos, however, the music industry isn’t the final destination for me; I’ve been working dutifully to make the career switch into software development. Ideally, I want to work in an air conditioned office with endless problems to solve. Endless snacks would also be cool. </br>
-      </br>
-        I relish the small victories in life, like finally getting that piece of code to work or lighting a bonfire in Dark Souls. I have an abundance of patience and my favourite part of development is the creative problem solving involved and how there are multiple solutions to every problem.
-      </p>
-      <div class="otherlinks">
-        <a href="https://www.goodreads.com/kajea">Here's what I'm reading on GoodReads</a>
-        <a href="https://www.last.fm/user/wulfzbane">Here's what I'm listening to on Last.fm</a>
-        <a href="https://kajemusic.com/">My music blog/writing portfolio</a>
-      </div>
-  </section>
-
-  <div class="contact">
-    <div class="linkedin2">
-      <a href="https://www.linkedin.com/in/kajea/"><i class="fab fa-linkedin-in"></i></a>
+    <div class="flufflinks">
+      <p>What I'm reading: (Goodreads)<a href="https://www.goodreads.com/user/show/76967838-kaje"><i class="fab fa-goodreads picon"></i></a></p>
+      <p>What I'm playing: (Steam) <a href="https://steamcommunity.com/id/aAnnihilatrix/"><i class="fab fa-steam picon"></i></a>(Board Game Geek)<a href="https://boardgamegeek.com/user/Annihilatrix"><i class="fas fa-dice picon"></i></a></p>
+      <p>What I'm listening to: (Last.fm)<a href="https://www.last.fm/user/Annihilatrixx"><i class="fab fa-lastfm picon"></i></a></p>
     </div>
-    <div class="github2">
-      <a href="https://github.com/KajeA"><i class="fab fa-github"></i></a>
-    </div>
-  </div>
+    <div class="line"></div>
 
-    <footer class="footer">
-      <h4>Copyright <script>document.write(/\d{4}/.exec(Date())[0])</script> </h4>
-    </footer>
-  </body>
-</html> 
+  <footer class="footer">
+    <h4>Copyright <script>document.write(/\d{4}/.exec(Date())[0])</script> </h4>
+  </footer>
+  </section>
+</body>
+</html>

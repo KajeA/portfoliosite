@@ -4,368 +4,86 @@ body, html {
   margin: auto;
   height: 100%;
   scroll-behavior: smooth;
+  background-color: black;
 }
 
 ul {
   list-style-type: none;
 }
 
-/* Section title banners*/
-.title {
-  font-weight: 700;
-  text-align: center;
-  box-sizing: border-box;
-  width: 15em;
-  height: 2.75em;
-  margin-top: 1.5em;
-  padding-top: 0.6em;
-  border: solid 2px lightgray;
-  border-radius: 0 40px 40px 0;
-  font-family: 'xolo', sans-serif;
-  text-transform: uppercase;
-  color: rgb(27, 161, 27);
-  font-size: 2em;
-  top: 0;
-}
-
-/* Scroll Bar */
-.scroll {
-  position: relative;
-  bottom: 250px;
-  height: 100px;
-  width: 100%;
-}
-.scroll3 {
-  position: relative;
-  height: -20rem;
-  width: 100%;
-
-}
-.scroll2  {
-    position: relative;
-    /* background-color: rgb(27, 161, 27); */
-    width: 100%;
-}
-.scroll a,
-.scroll3 a,
-.scroll2 a {
-  position: absolute;
-  bottom: 5%;
-  left: 50%;
-  -webkit-transform: translate(0, -50%);
-  transform: translate(0, -50%);
-}
-.scroll a:hover,
-.scroll2 a:hover,
-.scroll3 a:hover {
-  opacity: .5;
-}
-#scroll a,
-#scroll2 a,
-#scroll3 a  {
-  padding-top: 80px;
-}
-#scroll > a > span,
-#scroll2 > a > span,
-#scroll3 > a > span {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  width: 24px;
-  height: 24px;
-  margin-left: -12px;
-  border-left: 1px solid white;
-  border-bottom: 1px solid white;
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  -webkit-animation: sdb07 2s infinite;
-  animation: sdb07 2s infinite;
-  opacity: 0;
-  box-sizing: border-box;
-}
-#scroll a span:nth-of-type(1),
-#scroll2 a span:nth-of-type(1),
-#scroll3 a span:nth-of-type(1) {
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-}
-#scroll a span:nth-of-type(2),
-#scroll2 a span:nth-of-type(2),
-#scroll3 a span:nth-of-type(2) {
-  top: 16px;
-  -webkit-animation-delay: .15s;
-  animation-delay: .15s;
-}
-#scroll a span:nth-of-type(3),
-#scroll2 a span:nth-of-type(3),
-#scroll3 a span:nth-of-type(3) {
-  top: 32px;
-  -webkit-animation-delay: .3s;
-  animation-delay: .3s;
-}
-@-webkit-keyframes sdb07 {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-@keyframes sdb07 {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-/* Top Nav Bar */
-.container {
-  width: 100vw;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-.nav {
-  height: 2.5rem;
-  display: flex;
-  justify-content: space-evenly;
-  flex: 1 1 20rem;
-}
-.nav li {
-  display: inline;
-}
-.nav a {
-  color: rgb(27, 161, 27);
-  font-family: 'xolo', sans-serif;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 1.5rem;
-}
-
-.nav a:hover{
-  color: purple;
-}
-.twitter, .facebook, .linkedin, .github {
-  width: 2rem;
-  height: 2rem;
-  padding-top: 1.2rem;
-  padding-left: 1rem;
-  font-size: 1.5rem;
-  color: rgb(27, 161, 27);
-}
-.twitter:hover, .facebook:hover, .linkedin:hover, .github:hover{
-  color: purple;
-}
-/* Hero  Section*/
-#home{
-  /* background-color: white; */
-  height: 60em;
-  width: 100%;
-  margin: 0;
-}
 .hero {
-  position: relative;
   width: 100%;
-  margin-left: 5rem;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header-text {
+  font-family: 'xolo', sans-serif;
+  font-size: 40px;
+  padding-top: 1rem;
+  color: white;
+}
+h1 {
+  margin: 0 0 0 0;
+}
+.quote-text {
+  font-family: 'xolo', sans-serif;
+  font-size: 18px;
+  padding-top: 1rem;
+  color: rgb(27, 161, 27);
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+.exp p {
+  font-size: 2em;
+}
+.techsection p {
+  font-size: 2em;
 }
 .tech {
-  text-align: center;
-  font-size: 70px;
-  margin-top: 15rem 0 0 0;
+  font-size: 3em;
+  margin: 0.5em;
 }
-.fab {
+
+.picon {
+  color: rgb(123, 96, 182);
+  padding: 0 30px 0 0;
+}
+.gicon {
   color: rgb(27, 161, 27);
+  padding: 0 20px 0 0;
 }
-.fab:hover  {
+.picon:hover  {
   text-shadow: 0 0 3px rgb(27, 161, 27);
   -webkit-transform: scale(0.8);
   -ms-transform: scale(0.8);
   transform: scale(0.8);
 }
-h1 {
-  font-family: 'xolo', sans-serif;
-  font-size: 40px;
-  padding-top: 4rem;
-  color: white;
+.gicon:hover  {
+  text-shadow: 0 0 3px rgb(27, 161, 27);
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+}
+.fluff p{
+  font-size: 2em;
+  text-align: center;
+}
+.flufflinks p {
+  font-size: 1.25em;
+  text-align: center;
+}
+.line {
+  width: 50%;
+  height: 1px;
+  background-color: #2b2a2a; /* or any other color you prefer */
 }
 p {
   font-family: 'xolo', sans-serif;
-  padding-top: 2rem;
   font-size: 20px;
   color: white;
 }
-.herotext {
-  text-align: right;
-  position: absolute;
-  top: 85%;
-  left: 40%;
-  padding-right: 3rem;
-}
-.herotext h2 {
-  font-family: 'Playfair Display', sans-serif;
-  color: rgb(27, 161, 27);
-  font-size: 2vw;
-}
-.space {
-  padding-top: 0;
-  color: rgb(27, 161, 27);
-}
-
-/* Projects section */
-.projects {
-  position: relative;
-  text-align: center;
-  min-height: 60rem;
-  /* overflow: scroll; */
-}
-#projects {
-  width: 100%;
-  display: block;
-  list-style-type: none;
-}
-/* Cards */
-.projects ul {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-
-}
-.pro1, .pro2, .pro3, .pro4 {
-  background-color: rgb(13, 14, 14);
-  border: rgb(117, 19, 93, 0.73) 1px solid;
-  width: 16vw;
-  min-width: 10rem;
-  height: 20vh;
-  min-height: 7rem;
-  margin: 1rem 1rem 1rem 1rem;
-  border-radius: 1em;
-  padding: 1rem 1rem 6rem 1rem;
-  color: rgb(85, 83, 83);
-  box-shadow: 0 .30rem .30rem rgba(0,0,0,0.2), 0 0 1rem rgba(0,0,0,0.2);
-  overflow: hidden;
-  text-align: center;
-  font-family: sans-serif;
-}
-.pro1 {
-  background-image:
-  linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
-  url("../assets/canadiant.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.pro2 {
-  background-image:
-  linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
-  url('../assets/starwarsvacation.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.pro3 {
-  background-image:
-  linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
-  url("../assets/sentrybox.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.pro4 {
-  background-image:
-  linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
-  url("../assets/rps.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.projects button {
-  background-color: transparent;
-  border: solid 2px rgb(25, 39, 19);
-  border-radius: 1em;
-  color: #aaa;
-}
-.projects button:hover {
-  color: black;
-  background-color: #aaa;
-  cursor: pointer;
-}
-.quote {
-  font-style: italic;
-  padding: 5rem 5rem 0 5rem;
-}
-.pro1 p, .pro2 p, .pro3 p, .pro4 p {
-  padding-top: 0;
-  font-size: 15px;
-  font-family: sans-serif;
-}
-.pro1 a, .pro2 a, .pro3 a, .pro4 a {
-text-decoration: none;
-color: rgb(25, 39, 19);
-}
-.pro1 h3, .pro2 h3, .pro3 h3, .pro4 h3 {
-  margin-top: 7.5rem;
-  text-decoration: none;
-  color: rgb(25, 39, 19);
-}
-.pro1 a:hover, .pro2 a:hover, .pro3 a:hover, .pro4 a:hover {
-  text-decoration: none;
-  color:black;
-}
-/* About Section*/
-#about {
-  height: 60em;
-  width: 100%;
-}
-.about {
-  position: relative;
-  text-align: center;
-}
-.about p {
-  margin: 5rem;
-  text-align: center;
-}
-.otherlinks {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-.otherlinks a {
-  background-color: rgb(27, 161, 27);
-  color: white;
-  padding: 1em 1.5em;
-  margin: 1rem 1rem 0 1rem;
-  text-decoration: none;
-  border-radius: 15px;
-  font-family: sans-serif;
-}
-.otherlinks a:hover {
-  background-color: purple;
-}
-.contact {
-  text-align: center;
-}
-
-.twitter2, .facebook2, .linkedin2, .github2 { 
-  width: 2rem;
-  height: 2rem;
-  padding-top: 1.2rem;
-  padding-left: 1rem;
-  font-size: 2rem;
-  color: rgb(27, 161, 27);
-  display: inline;
-
-}
-.twitter2:hover, .facebook2:hover, .linkedin2:hover, .github2:hover{
-  color: purple;
-}
-
 /* Footer */
-
 .footer {
   background-color: black;
   height: 5rem;
