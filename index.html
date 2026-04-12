@@ -1,65 +1,107 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kaje's Portfolio</title>
-  <script src="./scripts/app.js"></script>
-  <script src="https://kit.fontawesome.com/f244332d5f.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="./css/style.css">
+    <title>Kaje's Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 </head>
+<body class="is-preload">
+<div id="wrapper">
+    <div id="bg"></div>
+    <div id="overlay"></div>
+    <div id="main">
 
-<body>
-  <section class="hero">
-    <div class="header-text">
-      <h1>Hi! I'm Kaje,</h1>
-    </div>
+        <!-- Header -->
+        <header id="header">
+            <h1>Hi, I'm Kaje!</h1>
+            <p>I'm ambitious and hungry for growth and knowledge</p>
 
-    <div class="quote-text">
-      <h2>I'm ambitious and hungry for knowlege and growth</h2>
-    </div>
-    <div class="line"></div>
+            <!-- Professional links -->
+            <nav>
+                <ul>
+                    <li>
+                        <a href="https://www.linkedin.com/in/kajea/"
+                           class="icon brands fa-linkedin-in has-tooltip"
+                           data-tooltip="LinkedIn"
+                           target="_blank" rel="noopener noreferrer">
+                            <span class="label">LinkedIn</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/KajeA"
+                           class="icon brands fa-github has-tooltip"
+                           data-tooltip="GitHub"
+                           target="_blank" rel="noopener noreferrer">
+                            <span class="label">GitHub</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="courses.html"
+                           class="icon solid fa-graduation-cap has-tooltip"
+                           data-tooltip="Courses &amp; Certificates">
+                            <span class="label">Courses</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
 
-    <div class="exp">
-      <p>Experience and Contact:</p>
-    </div>
-    <div class="tech">
-        <a href="https://www.linkedin.com/in/kajea/"><i class="fab fa-linkedin-in picon"></i></a>
-        <a href="https://github.com/KajeA"><i class="fab fa-github picon"></i></a>
-      <!-- <a href="K_Jenkinson_Lebenslauf.pdf" target="_blank"><i class="fas fa-file-pdf picon"></i></a> -->
-    </div>
-    <div class="line"></div>
+            <!-- Divider -->
+            <hr class="section-divider" />
+            <span class="fluff-label">More about me</span>
 
-    <!-- <div class="techsection">
-      <p>Tech I like working with:</p>
-    </div>
-    <div class="techicons">
-      <ul class="tech">
-        <i class="fab fa-php gicon"></i>
-        <i class="fab fa-aws gicon"></i>
-        <i class="fab fa-python gicon"></i>
-        <i class="fab fa-java gicon"></i>
-        <i class="fab fa-android gicon"></i>
-        <i class="fab fa-js-square gicon"></i>
-        <i class="fab fa-node-js gicon"></i>
-        <i class="fab fa-vuejs gicon"></i>
-      </ul>
-    </div> -->
-    <div class="line"></div>
+            <!-- Fun / personal links -->
+            <nav class="fluff-nav">
+                <ul>
+                    <li>
+                        <a href="https://www.goodreads.com/user/show/76967838-kaje"
+                           class="icon brands fa-goodreads has-tooltip"
+                           data-tooltip="What I'm reading on Goodreads"
+                           target="_blank" rel="noopener noreferrer">
+                            <span class="label">Goodreads</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://steamcommunity.com/id/aAnnihilatrix/"
+                           class="icon brands fa-steam has-tooltip"
+                           data-tooltip="What I'm playing on Steam"
+                           target="_blank" rel="noopener noreferrer">
+                            <span class="label">Steam</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://boardgamegeek.com/user/Annihilatrix"
+                           class="icon solid fa-dice has-tooltip"
+                           data-tooltip="What I'm playing on Board Game Geek"
+                           target="_blank" rel="noopener noreferrer">
+                            <span class="label">Board Game Geek</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.last.fm/user/Annihilatrixx"
+                           class="icon brands fa-lastfm has-tooltip"
+                           data-tooltip="What I'm listening to on Last.fm"
+                           target="_blank" rel="noopener noreferrer">
+                            <span class="label">Last.fm</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
 
-    <div class="fluff">
-        <p>More about me:</p>
-    </div>
-    <div class="flufflinks">
-      <p>What I'm reading: (Goodreads)<a href="https://www.goodreads.com/user/show/76967838-kaje"><i class="fab fa-goodreads picon"></i></a></p>
-      <p>What I'm playing: (Steam) <a href="https://steamcommunity.com/id/aAnnihilatrix/"><i class="fab fa-steam picon"></i></a>(Board Game Geek)<a href="https://boardgamegeek.com/user/Annihilatrix"><i class="fas fa-dice picon"></i></a></p>
-      <p>What I'm listening to: (Last.fm)<a href="https://www.last.fm/user/Annihilatrixx"><i class="fab fa-lastfm picon"></i></a></p>
-    </div>
-    <div class="line"></div>
+        </header>
 
-  <footer class="footer">
-    <h4>Copyright <script>document.write(/\d{4}/.exec(Date())[0])</script> </h4>
-  </footer>
-  </section>
+        <!-- Footer -->
+        <footer id="footer">
+            <span class="copyright">&copy; <script>document.write(new Date().getFullYear())</script> Kaje Jenkinson</span>
+        </footer>
+
+    </div>
+</div>
+<script>
+    window.onload = function() { document.body.classList.remove('is-preload'); }
+    window.ontouchmove = function() { return false; }
+    window.onorientationchange = function() { document.body.scrollTop = 0; }
+</script>
 </body>
 </html>
