@@ -6,7 +6,7 @@
 		}
 
 		polygon.one {
-			fill: rgba(255,255,255,0.245);
+			fill: rgba(255,255,255,0.08);
 		}
 
 		polygon.two {
